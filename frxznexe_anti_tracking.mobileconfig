@@ -10,7 +10,7 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.example.frxznexe.blocktracking</string>
+            <string>com.cloudflare.cloudflareblocktracking</string>
             <key>PayloadUUID</key>
             <string>12345678-1234-5678-1234-567812345678</string>
             <key>PayloadDisplayName</key>
@@ -32,7 +32,7 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadIdentifier</key>
-    <string>com.example.frxznexe</string>
+    <string>com.cloudflare.frxznexe</string>
     <key>PayloadUUID</key>
     <string>87654321-4321-8765-4321-876543218765</string>
     <key>PayloadDisplayName</key>
