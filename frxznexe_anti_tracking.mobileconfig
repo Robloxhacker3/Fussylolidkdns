@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webcontent-filter</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.frxznexe.blocktracking</string>
+            <key>PayloadUUID</key>
+            <string>12345678-1234-5678-1234-567812345678</string>
+            <key>PayloadDisplayName</key>
+            <string>Frxzn Exe Anti-Tracking Profile</string>
+            <key>PayloadDescription</key>
+            <string>Blocks extensive Apple tracking URLs.</string>
+            <key>PayloadOrganization</key>
+            <string>Frxzn Exe</string>
+            <key>FilterType</key>
+            <string>BlackList</string>
+            <key>FilterURLs</key>
+            <array>
+                <!-- General Apple Tracking and Ad URLs -->
+                <string>https://gsa.apple.com</string>
+                <string>https://apple.com/ads/</string>
+                <string>https://appleid.apple.com</string>
+                <string>https://safebrowsing.apple</string>
+                <string>https://metrics.apple.com</string>
+                <string>https://app-measurement.com</string>
+                <string>https://iadsdk.apple.com</string>
+                <string>https://experiments.apple.com</string>
+
+                <!-- Analytics and Data Tracking URLs -->
+                <string>https://static.ess.apple.com</string>
+                <string>https://gsas.apple.com</string>
+                <string>https://ads.apple.com</string>
+                <string>https://captive.apple.com</string>
+                <string>https://configuration.apple.com</string>
+                <string>https://news-analytics.apple.com</string>
+                <string>https://news-edge.apple.com</string>
+                <string>https://news-events.apple.com</string>
+                <string>https://xp.apple.com</string>
+                <string>https://api-glb-ada.apple.com</string>
+                <string>https://iad.apple.com</string>
+                <string>https://apptrailers.apple.com</string>
+
+                <!-- Additional Tracking, Ads, and CDN URLs -->
+                <string>https://cdn-apple.com</string>
+                <string>https://itunes.apple.com</string>
+                <string>https://aod.itunes.apple.com</string>
+                <string>https://search.itunes.apple.com</string>
+                <string>https://cdn.itunes.apple.com</string>
+                <string>https://push.apple.com</string>
+                <string>https://spm.apple.com</string>
+                <string>https://events.apple.com</string>
+                <string>https://snr.apple.com</string>
+                <string>https://assets.apple.com</string>
+                <string>https://appstore.com</string>
+                <string>https://bifrost.apple.com</string>
+                <string>https://tidal.apple.com</string>
+                <string>https://ads-api.apple.com</string>
+                <string>https://identity.apple.com</string>
+                <string>https://stv.apple.com</string>
+                <string>https://partner.apple.com</string>
+                <string>https://search.apple.com</string>
+                <string>https://securemetrics.apple.com</string>
+                <string>https://feedback.apple.com</string>
+            </array>
+        </dict>
+    </array>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.example.frxznexe</string>
+    <key>PayloadUUID</key>
+    <string>87654321-4321-8765-4321-876543218765</string>
+    <key>PayloadDisplayName</key>
+    <string>Frxzn Exe Anti-Tracking Profile</string>
+</dict>
+</plist>
